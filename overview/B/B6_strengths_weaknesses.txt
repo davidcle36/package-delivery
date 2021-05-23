@@ -1,0 +1,27 @@
+The Fundamental of the storage is a list or array, and the program methods for building the
+Hash Table are creating buckets for each indices in the list. The buckets are
+needed for storing key and value pairs.
+
+Similar to list, they both can search specific elements. However, with list, one must
+know the exact index to get the value, which is impractical due to sorting and unknown
+index value without looping through it first. But with a hash table, if one knows the key,
+the value can be found no matter the position of the index. (Zybook, 2013)
+
+Pros:
+    -   In term of time complexity, hash table is one of the best data structure for
+        large amount of data due due to short look up time.
+
+    -   For creating, deleting, updating, and looking up date, a hash table if fast and
+        efficient
+
+    -   Constant time complexity of O(1) no matter the input size
+
+Cons:
+    -   A key cannot be null since it requires a unique key
+
+    -   Collisions can cause the hash table to be inefficient, and with too many collisions the time
+        complexity can become linear.
+
+    -   Attempting to rehash to avoid collision can cause time complexity to be linear.
+
+    -   Blind Search which the reason why the time complexity is high.

@@ -1,0 +1,11 @@
+As the growing number packages increase, the program will be able to minimize the distance
+as well as miles for maximum numbers of packages delivered by the end of the day. By using
+Dijkstra's shortest path, it will dynamically change the route according to the packages to
+the shortest distance as possible.
+
+However, as the number of packages grows so does the time to complete it. This can cause
+scaling issue due to the time complexity being O(N^3 * 4LogN) for building undirected graph,
+chunking and sorting, and find shortest route. Beside refactoring the codebase to make it more
+efficient, it is possible to cache the hash table distance between in a database to reduce recreating
+already known path. Any new streets can be updated into the hash table. This way, a viable method of
+scaling can be done.

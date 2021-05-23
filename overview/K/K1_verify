@@ -1,0 +1,17 @@
+1.  Verify that the data structure used in the solution meets all requirements in the scenario.
+    a.  Explain how the time needed to complete the look-up function is affected by changes
+        in the number of packages to be delivered.
+
+            Regardless of number of packages, the time complexity is O(1) due to getting the value by a unique key.
+
+    b.  Explain how the data structure space usage is affected by changes in the number of packages to be delivered.
+
+            There are no change to the space complexity as it is still O(V). The data inside the hash table is the same,
+            unless one is updating its value, but the space complexity does not change but the number can change by O(1)
+            if packages are removed from table when delivered.
+
+    c.  Describe how changes to the number of trucks or the number of cities would affect the look-up time and
+        the space usage of the data structure.
+
+            If there was 20 trucks having to look for a package by a unique id, it will be a constant value of 20, so
+            the time and space complexity is still O(1).

@@ -1,0 +1,11 @@
+1.  Describe at least two strengths of the algorithm used in the solution.
+
+The algorithm I used is Dijkstra's shortest path algorithm, which is comprise
+of a weighted graph and also a hash table for quick loop up.
+
+Dijkstra's shortest path algorithm Advantage:
+    -   Finding the shortest distance between one point to another while
+        algorithm itself while keeping the time complexity low.
+
+    -   It can calculate the minimum weight between vertices and can trace
+        the route from beginning to end.

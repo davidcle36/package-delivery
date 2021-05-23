@@ -1,0 +1,8 @@
+SOLID Principles as well as MVC pattern were used throughout the program
+for maintaining it. The CLI menu is the view, the packages, and locations
+are data and organizing the information provided is the controller for outputting
+in the view.
+
+Regarding the SOLID Principles, the codebase separate the functionality from others
+that don't relate to it directly. This keep reading and refactoring maintainable.
+

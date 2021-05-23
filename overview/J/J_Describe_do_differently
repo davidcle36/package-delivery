@@ -1,0 +1,13 @@
+J.  Describe what you would do differently, other than the two algorithms
+    identified in I3, if you did this project again.
+
+        The chucking and sorting algorithm computation is high due to calling dijstra's
+        algorithm more than one in the program. Going back, I would refactor that first
+        to reduce the time complexity of the program. One approach is caching and popping packages
+        when loading to a truck from the same address. This way can save time and space.
+
+        Second is optimizing which package is loaded and at what time. I had to restrict what
+        can be loaded manually until specific time, thus, mileage usage was less optimize.
+
+        Lastly, the organization of code can be better. Many codes were repeated and when changes
+        are needed, I would have to change in 2 or more places or else it will case problem.

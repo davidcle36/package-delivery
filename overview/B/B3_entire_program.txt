@@ -1,0 +1,10 @@
+B.3 Evaluate the space-time complexity of each major segment of the program,
+and the entire program, using big-O notation.
+
+    4 major segment:
+
+        1. Hash Map - /utils.HashMap2.py
+        2. Building Graph - /Graph.py
+        3. Chunking and Sorting Routes - /Truck.py
+        4. Dijkstra's sorting algorithm - /utils.Dijkstra
+

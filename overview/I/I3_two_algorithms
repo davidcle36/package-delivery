@@ -1,0 +1,23 @@
+3.  Identify two other named algorithms, different from the algorithm
+    implemented in the solution, that would meet the requirements in the scenario.
+
+        1. Bellman–Ford algorithm
+
+        2. Prim's Algorithms
+
+    a.  Describe how each algorithm identified in part I3 is different from the
+        algorithm used in the solution.
+
+            1. Bellman-Ford algorithm is a single-source shortest path algorithm, where
+               it can handle negative weight, meaning it has direction. Route can be optimize
+               unlike Dijkstra, which cannot handle negative weights. Bellman-ford can contain
+               vertices which has data of other vertices (GeeksforGeeks, 2020c). But since
+               negative and vertices are unrelated to each other, it is not needed in this program.
+               Dijkstra would be a better choice since it has a bit better time complexity of
+               O(E + V log V) vs O(VE)
+
+            2.  Prim's algorithm is constructs out of a minimum spanning tree (MST) graph, and it
+                connects a vertex to a MST. Dijkstra connects all nodes back to source nodes with
+                minimal path between them. Prim does not guaranteed the shortest path, but it
+                sums all the edges, and gets the minimum total. (GeeksforGeeks, 2020b)
+

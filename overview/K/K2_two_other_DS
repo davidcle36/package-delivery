@@ -1,0 +1,18 @@
+2.  Identify two other data structures that could meet the same requirements in the scenario.
+
+    1. Tree
+
+    2. Array
+
+    a.  Describe how each data structure identified in part K2 is different from the data structure
+        used in the solution.
+
+        1.  A tree can be use as a data structure, more specifically, a red-black binary tree. It can be used
+            to locate the node that provides details of the package. However given the high time complexity of O(log n)
+            for look up and insert, it is not viable when scaling.
+
+        2.  Using an array to store package details would work. Each element can be an array of data about that particular
+            package. But one must establish an initial size when the number of packages change. This can cause issue such
+            as out of index, or data corruption. This can be solve by implementing a dynamically array that change it size, however
+            this cause more memory given that it will have empty array waiting to be fill, if ever.
+

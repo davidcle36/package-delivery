@@ -1,0 +1,7 @@
+The Python language was used to facilitate the execution of the project solution. A virtual environment has been
+created and included in the submission files for flexibility, but not needed. When built, Conda was the virtual
+environment.
+
+The project is broken into a directory for ease of interpretation and conformity to the concept of segregation
+following closely MVC model. CLI as the view, the controller getting and organizing data, and model is data from
+files.

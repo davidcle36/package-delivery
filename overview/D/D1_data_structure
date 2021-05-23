@@ -1,0 +1,11 @@
+D.  Identify a self-adjusting data structure, such as a hash table, that can be used with the algorithm identified
+    in part A to store the package data.
+
+
+    1.  Explain how your data structure accounts for the relationship between the data points you are storing.
+
+        For self-adjusting data structures, a chaining hash table. When collision happens in the bucket, it append
+        the key-value pair regardless if there are empty space elsewhere. As long as collision is kept minimum, the
+        look up, insert, and delete is O(1)
+
+        For storing data, the key is the name of the instance of the class, and the value is the instance of the class.
